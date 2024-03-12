@@ -1,0 +1,53 @@
+html>body{
+    background-color: black;
+    font-family: Arial;
+}
+.container{
+    margin: auto;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    border: 2px solid white;
+    width: 360px;
+}
+h1{
+    text-align: center;
+    font-size: 2rem;
+    color: pink;
+}
+#mycalc{
+    border: 2px solid white;
+    width: 360px;
+    margin: auto;
+}
+.first{
+    gap: 20px;  
+    display: flex;
+}
+.btn{
+    border-radius: 40%;
+    font-size: large;    
+    padding: 20px;
+    border-style: none;
+    border: 2px solid white;
+    cursor: pointer;
+    width: 65px;
+    background-color: pink;
+}
+
+.first>input{
+    margin: 0;
+    padding: 10px 6px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 21px;
+    width: 302px;
+    text-align: right;
+    margin-top: 10px;
+}
+.maincon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
