@@ -1,0 +1,33 @@
+/*PARENT CONTAINER KO HAMESHA POSITION RELATIVE DENA CHAHIYE TO MAKE IT RESPONSIVE*/
+#clockContainer{
+    position: relative;  /*screen size ko change kiya toh farak nahi pade isliye*/
+    height: 40vw;
+    width: 40vw;
+    background: url(./clock.png) no-repeat /*ek baar ek clock*/;
+    background-size: 100%;  /*ek div box mein pura image centre pe ayega aur pura dikhega*/
+    margin: auto;
+}
+#hour,#minute,#second{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+    background-color: black;
+}
+#hour{
+    top: 15.5%;
+    left: 49.4%;
+    height: 13.9vw;
+    width: 1%;
+}
+#second{
+    top: 5%;
+    left: 49.5%;
+    height: 18vw;
+    width: 0.5%;
+}
+#minute{
+    top: 10%;
+    left: 49.26%;
+    height: 16vw;
+    width: 1%;
+}
